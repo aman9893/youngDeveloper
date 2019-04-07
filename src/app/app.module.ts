@@ -14,6 +14,9 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { FooterComponent } from './footer/footer.component';
 import { CompanyValueComponent } from './company-value/company-value.component';
+import { OurservicesComponent } from './ourservices/ourservices.component';
+
+import { Header2Component } from './header2/header2.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,9 @@ import { CompanyValueComponent } from './company-value/company-value.component';
     ContactUsComponent,
     TestimonialComponent,
     FooterComponent,
-    CompanyValueComponent
+    CompanyValueComponent,
+    OurservicesComponent,
+    Header2Component
   ],
   imports: [
     BrowserModule,
