@@ -147,7 +147,7 @@
 }
 /**----------- End Media ----------**/
 #service-hader h3{
-    color: #fff;
+
     font-size: 38px;
     padding: 28px;
     font-family: poppinsnor!important;
@@ -156,7 +156,7 @@
     width: 100%;
     margin-top: 12px;
     opacity: .1;
-    background-image: url(https://motionarray.imgix.net/preview-96850-dG4cFMRkj4-high_0002.jpg?w=750&q=60&fit=max&auto=format);
+    // background-image: url(https://motionarray.imgix.net/preview-96850-dG4cFMRkj4-high_0002.jpg?w=750&q=60&fit=max&auto=format);
 }section {
     padding-top: 4rem;
     padding-bottom: 5rem;
@@ -173,8 +173,9 @@
 }
 
 .wrap:hover {
-    background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
-    color: white;
+  background: linear-gradient(#8f4c4c, #8b8f98 0%, #545556 100%);
+  color: white;
+  // font-size: 16px;
 }
 
 .ico-wrap {
@@ -203,7 +204,7 @@ h2 {
     font-size: 1.4rem;
 }
 .mbr-bold {
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
     font-size: 24px;
 

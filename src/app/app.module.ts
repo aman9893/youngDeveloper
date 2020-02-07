@@ -15,7 +15,7 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
 import { FooterComponent } from './footer/footer.component';
 import { CompanyValueComponent } from './company-value/company-value.component';
 import { OurservicesComponent } from './ourservices/ourservices.component';
-
+import { ParticlesModule } from 'angular-particle';
 import { Header2Component } from './header2/header2.component';
 
 @NgModule({
@@ -37,7 +37,8 @@ import { Header2Component } from './header2/header2.component';
   ],
   imports: [
     BrowserModule,
-    ROUTING
+    ROUTING,
+    ParticlesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
