@@ -17,6 +17,8 @@ import { CompanyValueComponent } from './company-value/company-value.component';
 import { OurservicesComponent } from './ourservices/ourservices.component';
 import { ParticlesModule } from 'angular-particle';
 import { Header2Component } from './header2/header2.component';
+import { GalaxyComponent } from './galaxy/galaxy.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { Header2Component } from './header2/header2.component';
     FooterComponent,
     CompanyValueComponent,
     OurservicesComponent,
-    Header2Component
+    Header2Component,
+    GalaxyComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,
