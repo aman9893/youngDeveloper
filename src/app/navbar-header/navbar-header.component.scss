@@ -9,9 +9,15 @@
 .closed{
     cursor: pointer !important;
 }span {
-    color:white;
+    color: rgb(255, 255, 255);
     font-size:20px;
 }
+.classy_logo>span {
+ 
+    color: sandybrown;
+    font-size: 20px;
+}
+
 .wrapper {
     height:100vh;
     -webkit-animation: slide 60s linear infinite;
